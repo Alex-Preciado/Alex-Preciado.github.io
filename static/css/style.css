@@ -1,5 +1,5 @@
 /* general style */
-body    { font: 18px/25px  'Source Sans Pro', 'Palatino', sans-serif;
+body    { font: 18px/25px  'Source Sans Pro', 'Palatino', sans-serif; background-color: default;
           margin: 0; padding: 0; font-weight: lighter; text-align: justify; line-height: default}
 
 strong { font-weight: bolder;}
@@ -22,7 +22,8 @@ h1                          { font-size: 48px; line-height: 52px; }
 h2                          { font-size: 28px; line-height: 32px; }
 
 /* layout elements */
-div.container               { width: 740px; margin: 48px auto; padding: 0; }
+div.container               { width: 740px; margin: 48px auto; padding: 0; background-color: default}
+div.page                    { background-color: default;}
 div.header                  { float: left; }
 div.navigation              { float: right; }
 div.navigation a            { float: right;
