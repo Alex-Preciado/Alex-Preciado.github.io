@@ -1,9 +1,8 @@
 /* general style */
 body    { font: 18px/25px  'Source Sans Pro', 'Palatino', sans-serif;
-          margin: 0; padding: 0; font-weight: lighter; text-align: justify}
-strong {
-    font-weight: bolder;
-}
+          margin: 0; padding: 0; font-weight: lighter; text-align: justify; line-height: default}
+
+strong { font-weight: bolder;}
 a       { color: #2980B9 }
 a:hover { color: #5b187f }/*; background: #f9f8fa; }*/
 a:link                      { text-decoration: none; }
@@ -59,7 +58,7 @@ div.social ul li            { display: inline; margin: 0 2px; padding: 0; }
 div.cv h2                   { margin: 0 15px; padding: 0;}
 div.cv h3                   { margin: 0 20px; padding: 0;}
 div.cv ul                   { margin: 0; padding: 0; list-style: none; }
-div.cv ul li                { margin: 30px 40px; padding: 0;}
+div.cv ul li                { margin: 20px 40px 20px 40px; padding: 0;}
 
 
 /* margins and stuff */
