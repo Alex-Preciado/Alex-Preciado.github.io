@@ -22,7 +22,7 @@ h1                          { font-size: 48px; line-height: 52px; }
 h2                          { font-size: 28px; line-height: 32px; }
 
 /* layout elements */
-div.container               { width: 740px; margin: 48px auto; padding: 0; background-color: default}
+div.container               { width: 710px; margin: auto auto; padding: 0; background-color: default}
 div.page                    { background-color: default;}
 div.header                  { float: left; }
 div.navigation              { float: right; }
@@ -135,6 +135,32 @@ div.entry-overview div.date         { float: left; width: 120px; color: #888;
 /*div.entry-overview h1:after         { content: "Â â€”"; }*/
 
 /* other alignment things */
+#cover {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+#cover div {
+  float: left;
+  padding: 10px;
+}
+
+#cover > div img {
+  float: left;
+  border: 2px solid black;
+  width: 100%;
+  margin: 1.66%;
+}
+
+#cover > div iframe {
+  float: center;
+  padding: 0 10px;
+  border: 2px solid black;
+  width: 100%;
+  margin: 1.66%;
+}
+
 img.align-center        { margin: 15px auto; display: block; }
 
 /* pagination */
@@ -196,3 +222,80 @@ img.align-left {
   -webkit-border-top-right-radius: 10px !important;
   font-size: 0.85em !important;
 }
+
+
+
+.image-list-small {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 710px;
+  padding: 0;
+}
+
+.image-list-small li {
+  display: inline-block;
+  width: 300px;
+  margin: 0 0px 30px;
+}
+
+
+/* Photo */
+
+.image-list-small li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 180px;
+  margin: 0;
+  padding: 0;
+  border: 4px solid #ffffff;
+  outline: 1px solid #d0d0d0;
+  box-shadow: 0 2px 1px #DDD;
+}
+
+.image-list-small li > iframe {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 4px solid #ffffff;
+  outline: 1px solid #d0d0d0;
+  box-shadow: 0 2px 1px #DDD;
+}
+
+
+.image-list-small .details {
+  margin-top: 13px;
+}
+
+
+/* Title */
+
+.image-list-small .details h3 {
+  display: block;
+  font-size: 12px;
+  margin: 0 0 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-list-small .details h3 a {
+  color: #303030;
+  text-decoration: none;
+  text-align: center;
+}
+
+.image-list-small .details .image-author {
+  display: block;
+  color: #717171;
+  font-size: 11px;
+  font-weight: normal;
+  margin: 0;
+}
+
